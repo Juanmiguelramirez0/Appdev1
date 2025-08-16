@@ -6,6 +6,6 @@
 
 ---
 
-## Why I Want to Learn Git & GitHub
+## Why I Want to Learn Git & GitHub 
 I want to learn Git and GitHub so I can manage my projects better, work with others easily, and get ready for my future job as a web developer.
 

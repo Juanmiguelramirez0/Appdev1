@@ -1,10 +1,11 @@
 # About Me
 
 **Name:** Juan Miguel Ramirez  
-**Course & Year:** Associate in Computer Technology (ACT), 2nd Year  
-**Fun Fact:** I love playing basketball and coding at night.
+**Course & Year:** Bachelor of Science in Information Systems (BSIS), 3rd Year  
+**Fun Fact:** Just like my WiFi, my love life has no strong connection..
 
 ---
 
 ## Why I Want to Learn Git & GitHub
-I want to learn Git and GitHub because they are essential tools for teamwork and version control in programming. Knowing how to use them will help me manage my projects better, collaborate with others effectively, and prepare for future work as a web developer.
+I want to learn Git and GitHub so I can manage my projects better, work with others easily, and get ready for my future job as a web developer.
+

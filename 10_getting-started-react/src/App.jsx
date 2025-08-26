@@ -15,7 +15,6 @@ function App() {
         JavaScript libraries for building user interfaces. 
         I believe mastering React will help me create modern, 
         interactive web applications and improve my skills 
-        as a future software developer.
       </p>
     </div>
   );

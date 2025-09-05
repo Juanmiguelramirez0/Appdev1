@@ -5,3 +5,4 @@ let myname = "Miguel";
 
 console.log(myName);
 console.log(myname);
+x

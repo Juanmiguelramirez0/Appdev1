@@ -1,7 +1,7 @@
 console.log("Hello JavaScript");
 
-let myName = "Juan Miguel Ramirez";
-let myname = "Miguel";
+let myName = "Miguel";
+let myname = "miguel";
 
 console.log(myName);
 console.log(myname);

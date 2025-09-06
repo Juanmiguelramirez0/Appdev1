@@ -1,1 +1,2 @@
 Line 2
+Realization: After i reset, Commits after chosen commit were removed and file.txt reverted to its content at that commit.

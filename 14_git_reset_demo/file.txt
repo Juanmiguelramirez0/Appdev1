@@ -1,1 +1,3 @@
-Line 3
+Line 1
+Realization: After reset, the file content and commit history went back to the chosen commit. Newer commits disappeared.
+

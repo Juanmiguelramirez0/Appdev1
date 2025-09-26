@@ -1,13 +1,21 @@
-
 export default function App() {
   return (
     <div>
       <h1>Hello World!</h1>
       <Welcome />
+      <AboutMe />
     </div>
   );
 }
 
 function Welcome() {
   return <h2>Hello, I am Juan Miguel Ramirez</h2>;
+}
+
+function AboutMe() {
+  return (
+    <p>
+      I am learning React!<strong>JSX</strong>.
+    </p>
+  );
 }

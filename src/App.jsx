@@ -1,10 +1,14 @@
-const isLoggedIn = true;
+const items = ["Apple", "Banana", "Orange"];
 
 export default function App() {
   return (
     <div>
-      <h1>Conditional Rendering</h1>
-      {isLoggedIn ? <p>Welcome back!</p> : <p>Please log in.</p>}
+      <h1>Rendering Lists</h1>
+      <ul>
+        {items.map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul>
     </div>
   );
 }

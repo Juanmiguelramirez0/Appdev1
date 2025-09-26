@@ -1,9 +1,10 @@
 export default function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <h1 style={{ color: "blue" }}>Hello World!</h1>
       <Welcome />
       <AboutMe />
+      <StyledBox />
     </div>
   );
 }
@@ -15,7 +16,15 @@ function Welcome() {
 function AboutMe() {
   return (
     <p>
-      I am learning React!<strong>JSX</strong>.
+      I am learning React<strong>JSX</strong>.
     </p>
+  );
+}
+
+function StyledBox() {
+  return (
+    <div style={{ padding: "10px", backgroundColor: "lightgray", borderRadius: "5px" }}>
+      This box is styled with CSS inline
+    </div>
   );
 }

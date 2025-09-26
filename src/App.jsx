@@ -1,13 +1,12 @@
-import { useState } from "react";
-
 export default function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div>
-      <h1>Using Hooks</h1>
-      <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Add</button>
+      <h1>Sharing Data</h1>
+      <Child message="Hello from parent!" />
     </div>
   );
+}
+
+function Child({ message }) {
+  return <p>{message}</p>;
 }

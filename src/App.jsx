@@ -1,12 +1,13 @@
+import { useState } from "react";
+
 export default function App() {
-  function handleClick() {
-    alert("Button clicked!");
-  }
+  const [count, setCount] = useState(0);
 
   return (
     <div>
-      <h1>Responding to Events</h1>
-      <button onClick={handleClick}>Click me</button>
+      <h1>Using Hooks</h1>
+      <p>Count: {count}</p>
+      <button onClick={() => setCount(count + 1)}>Add</button>
     </div>
   );
 }

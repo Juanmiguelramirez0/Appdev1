@@ -1,3 +1,8 @@
+const user = {
+  name: "Juan Miguel Ramirez",
+  age: 20,
+};
+
 export default function App() {
   return (
     <div>
@@ -5,6 +10,7 @@ export default function App() {
       <Welcome />
       <AboutMe />
       <StyledBox />
+      <UserInfo />
     </div>
   );
 }
@@ -16,7 +22,7 @@ function Welcome() {
 function AboutMe() {
   return (
     <p>
-      I am learning React<strong>JSX</strong>.
+      I am learning React and writing markup using <strong>JSX</strong>.
     </p>
   );
 }
@@ -24,7 +30,15 @@ function AboutMe() {
 function StyledBox() {
   return (
     <div style={{ padding: "10px", backgroundColor: "lightgray", borderRadius: "5px" }}>
-      This box is styled with CSS inline
+      This box is styled with CSS
     </div>
+  );
+}
+
+function UserInfo() {
+  return (
+    <p>
+      Name: {user.name}, Age: {user.age}
+    </p>
   );
 }

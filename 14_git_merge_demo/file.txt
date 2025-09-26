@@ -1,0 +1,1 @@
+Realization: After merge, both main and feature-merge histories were preserved. the merge commits shows where the two branches were joined.

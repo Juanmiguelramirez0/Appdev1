@@ -1,0 +1,4 @@
+Line 1
+Line 2
+
+Realization: After revert, history kept all commits but added a new commit that undid the latest changes.

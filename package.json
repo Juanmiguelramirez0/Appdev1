@@ -1,5 +1,13 @@
 {
+<<<<<<< HEAD
   "name": "react-describing-ui",
+=======
+<<<<<<< HEAD
+  "name": "react-describing-ui",
+=======
+  "name": "react-quickstart",
+>>>>>>> 85ca4fa5bff2a708a40484355d93dc72a417e094
+>>>>>>> 8af5b38bc315ac63941e61e4ecc14306ac88388e
   "private": true,
   "version": "0.0.0",
   "type": "module",

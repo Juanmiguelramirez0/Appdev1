@@ -1,0 +1,1 @@
+Realization: After switching from macro to micro ccommits, the commit history became clearer and easier to understand.

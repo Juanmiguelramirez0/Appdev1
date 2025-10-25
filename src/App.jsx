@@ -4,7 +4,7 @@ import TodoList from "./components/ToDoList";
 import List from "./components/List";
 import TeaSet from "./components/TeaSet";
 import CurlyBraces from "./component/CurlyBraces";
-
+import UITreeConcept from "./component/UITreeConcept";
 export default function App() {
   return (
     <>
@@ -13,6 +13,7 @@ export default function App() {
       <List />
       <TeaSet />
       <CurlyBraces />
+      <UITreeConcept />
     </>
   );
 }

@@ -1,7 +1,7 @@
 let guest = 0;
 
 function Cup({ guest }) {
-  return <h2>Tea cup for guest #{guest}</h2>;
+  return <h2>Tea cup for guest. #{guest}</h2>;
 }
 
 export default function App() {

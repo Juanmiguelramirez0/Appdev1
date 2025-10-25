@@ -3,6 +3,7 @@ import Gallery from "./components/Gallery";
 import TodoList from "./components/ToDoList";
 import List from "./components/List";
 import TeaSet from "./components/TeaSet";
+import CurlyBraces from "./component/CurlyBraces";
 
 export default function App() {
   return (
@@ -11,6 +12,7 @@ export default function App() {
       <Gallery />
       <List />
       <TeaSet />
+      <CurlyBraces />
     </>
   );
 }

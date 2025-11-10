@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -21,3 +22,30 @@ function App() {
 }
 
 export default App;
+=======
+import FirstComponent from "./components/FirstComponent";
+import MultiComponent from "./components/MultiComponent";
+import MarkupExample from "./components/MarkupExample";
+import CurlyBracesExample from "./components/CurlyBracesExample";
+import PropsExample from "./components/PropsExample";
+import ConditionalExample from "./components/ConditionalExample";
+import MultipleRenderExample from "./components/MultipleRenderExample";
+import PureComponentExample from "./components/PureComponentExample";
+import UITreeExample from "./components/UITreeExample";
+
+export default function App() {
+  return (
+    <div>
+      <FirstComponent />
+      <MultiComponent />
+      <MarkupExample />
+      <CurlyBracesExample />
+      <PropsExample />
+      <ConditionalExample />
+      <MultipleRenderExample />
+      <PureComponentExample value={5} />
+      <UITreeExample />
+    </div>
+  );
+}
+>>>>>>> 0986055a50f0e1ad8b2080244bfb800d3150e623

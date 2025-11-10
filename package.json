@@ -1,0 +1,51 @@
+{
+<<<<<<< HEAD
+  "name": "10_getting-started-react",
+=======
+<<<<<<< HEAD
+  "name": "react-describing-ui",
+=======
+<<<<<<< HEAD
+  "name": "react-describing-ui",
+=======
+  "name": "react-quickstart",
+>>>>>>> 85ca4fa5bff2a708a40484355d93dc72a417e094
+>>>>>>> 8af5b38bc315ac63941e61e4ecc14306ac88388e
+>>>>>>> 0986055a50f0e1ad8b2080244bfb800d3150e623
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+<<<<<<< HEAD
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.1.2"
+=======
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.16",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.4",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.22",
+    "globals": "^16.4.0",
+    "vite": "^7.1.7"
+>>>>>>> 0986055a50f0e1ad8b2080244bfb800d3150e623
+  }
+}

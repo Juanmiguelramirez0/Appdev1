@@ -1,5 +1,6 @@
 import Welcome from "./Welcome";
 import Greeting from "./Greeting";
+import { UserName, UserAge } from "./UserInfo";
 
 function App() {
   return (
@@ -7,6 +8,8 @@ function App() {
       <h1>My React App</h1>
       <Welcome />
       <Greeting />
+      <UserName />
+      <UserAge />
     </div>
   );
 }

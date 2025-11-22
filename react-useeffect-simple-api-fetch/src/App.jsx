@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import UsersFetch from "./component/UsersFetch";
 import PostsFetchAsync from "./component/PostsFetchAsync";
+import TodosFetchAxios from "./component/TodosFetchAxios";
 
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
 
         <Route path="/postsfetchasync" element={<PostsFetchAsync />} />
 
-
+        <Route path="/todosfetchaxios" element={<TodosFetchAxios />} />
 
       </Routes>
     </BrowserRouter>

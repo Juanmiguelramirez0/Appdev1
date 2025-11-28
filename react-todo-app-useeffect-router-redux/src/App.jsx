@@ -1,7 +1,7 @@
-// src/App.jsx
+
 import { Outlet, Link } from "react-router-dom";
 
-export default function App() {   // <-- default export is required
+export default function App() {   
   return (
     <div>
       <nav>
@@ -10,7 +10,7 @@ export default function App() {   // <-- default export is required
         <Link to="/todos">Todos</Link>
       </nav>
       <hr />
-      <Outlet /> {/* Nested routes render here */}
+      <Outlet /> {}
     </div>
   );
 }
